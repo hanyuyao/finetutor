@@ -42,6 +42,8 @@ body {
     font-family: 'Microsoft JhengHei', 'Rubik', sans-serif;
     position: relative;
     font-size: 16px;
+    overflow-x: hidden; 
+
 }
 
 a {
@@ -72,7 +74,7 @@ h2 {
 h3 {
     color: #633991;
     font-size: 2.2rem;
-    font-weight: 500;
+    font-weight: bold;
     margin-bottom: 1rem;
 }
 
@@ -96,6 +98,7 @@ p {
 p.lead {
     color: #e38cb7;
     margin-bottom: 2rem;
+    font-weight: bold;
 }
 
 .text-primary {
@@ -128,6 +131,7 @@ p.lead {
     font-weight: 500;
     padding: 0.6rem 2rem;
     border: 0;
+    font-size: 1rem;
 }
 
 .btn-primary:hover,
@@ -161,6 +165,7 @@ p.lead {
 
 .light-bg {
     background-color: #faf6fb;
+    background-size: cover;
 }
 
 .section {
@@ -215,7 +220,7 @@ p.lead {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1rem;
         padding-left: 1rem;
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
     .navbar-nav>.nav-item>.nav-link.active:after {
         content: "";
@@ -250,7 +255,6 @@ header {
 .bg {
     background-image: url(../images/background.jfif);
     background-size: cover;
-
     /* background-image: -moz-linear-gradient( 45deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
     background-image: -webkit-linear-gradient( 45deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
     background-image: -ms-linear-gradient( 45deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
@@ -647,4 +651,9 @@ header {
         text-align: center;
         margin-top: 2rem;
     }
+}
+
+#about{
+    background-color: white;
+    background-size: cover;
 }
